@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction:row;
+        }
+        .box{
+            height: 100vh;
+            width: 65%;
+            background-color: rgb(80, 190, 210);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box1{
+            background-color: #335e55;
+            width: 45%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .loginbox{
+            height: 500px;
+            width: 500px;
+            background-color: rgba(127, 255, 212, 0);
+        }
+        .loginbox h1{
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .loginbox h3{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .iconbox{
+            height: 40px;
+            width: 500px;
+            background-color: rgba(0, 0, 255, 0);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .iconbox img{
+            height: 40px;
+            width: 40px;
+            margin-left: 15px;
+        }
+        .loginbox p{
+            display: flex;
+            justify-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .login input{
+            display: flex;
+            justify-content: center;
+        }
+        .inputbox{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 75px;
+            width: 800px;
+        }
+        .inputbox input{
+            height: 40px;
+            width: 350px;
+            border: 1px rgb(255, 255, 255) solid;
+            border-radius: 20px;
+            margin-top: 10px;
+            background-color: #eef5ee;
+        }
+        button{
+            height: 50px;
+            width: 200px;
+            border: 0px black solid;
+            border-radius: 100px ;
+            margin-top: 30px;
+            margin-left: 160px;
+            background-color: #28b498;
+            color: white;
+        }
+        .box1 h2{
+            font-size: 50px;
+            color: white;
+        }
+        .box1 h4{
+            position: relative;
+            margin-top: -20px;
+            font-size: 20px;
+            color: white;
+            word-spacing: 7px;
+        }
+        .box1 button{
+            height: 50px;
+            width: 200px;
+            border: 0px black solid;
+            border-radius: 100px ;
+            margin-top: 30px;
+            margin-left: 0px;
+            background-color: white;
+            color: #28b498;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="loginbox">
+            <h1>Login to your Account</h1>
+        <h3>Login using social networks</h3>
+        <div class="icons" align="center">
+            <a href=""><i class="fa fa-facebook-square" style="font-size:48px;color:rgb(47, 22, 104)"></i></a>
+            <a href=""><i class="fa fa-google-plus-square" style="font-size:48px;color:rgb(201, 82, 49)"></i></a>
+            <a href=""><i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(20, 22, 126)"></i></a>
+    </div>
+    <p>or</p>
+    <div class="inputbox"><input type="email" placeholder="Email">
+        <input type="password" placeholder="Password"></div>
+        <a href="RE.html"><button>sign in</button></a>
+    </div>
+    </div>
+    <div class="box1"><h2>New Here?</h2>
+        <h4>Signup and discover a great <br> amount of new opportunities!</h4>
+        <button>sign up</button>
+    </div>
+</body>
+</html>
